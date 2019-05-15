@@ -153,6 +153,7 @@ section h1 {
 }
 
 .overlay {
+  background-color: #000;
   position: fixed;
   top: 0;
   left: 0;
@@ -281,17 +282,4 @@ section h1 {
   100% {
     opacity: 1;
   }
-}
-
-@media screen and (min-width: 1000px) {
-  .button_container {
-  position: fixed;
-  top: 2%;
-  right: 2%;
-  height: 70px;
-  width: 70px;
-  cursor: pointer;
-  z-index: 5;
-  transition: opacity 0.25s ease;
-}
 }
