@@ -110,6 +110,22 @@ section h1 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Navigation Styles Below */
 .button_container {
   position: fixed;
@@ -156,7 +172,7 @@ section h1 {
 }
 
 .overlay {
-  background-color: #000;
+  background-color: #555555;
   position: fixed;
   top: 0;
   left: 0;
