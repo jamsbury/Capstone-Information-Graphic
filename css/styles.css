@@ -18,6 +18,10 @@ html, body {
   height: 100%;
 }
 
+body {
+  font: normal "Roboto";
+}
+
 section {
   position: relative;
   width: 100%;
@@ -109,10 +113,9 @@ section h1 {
 /* Navigation Styles Below */
 .button_container {
   position: fixed;
-  bottom: 2%;
-  right: 2%;
-  height: 70px;
-  width: 70px;
+  top: 4%;
+  right: 4%;
+  width: 55px;
   cursor: pointer;
   z-index: 5;
   transition: opacity 0.25s ease;
