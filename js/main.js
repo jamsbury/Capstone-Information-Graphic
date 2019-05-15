@@ -48,5 +48,5 @@ $(document).ready(function() {
 // Log test
 
 console.log(
-  "She says / It helps with the lights out / Her rabid glow / Is like braille to the night..."
+  "You know I hate to ask, but are friends electric?"
 );
