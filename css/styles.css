@@ -1,12 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 /* importing HTML/CSS fixes */
-@import "fixes"; 
+@import "fixes.css"; 
 /* importing normalize */
-@import "normalize";
-/* nav functionality */
-@import "nav";
+@import "normalize.css";
 /* animate.css */
-@import "animate";
+@import "animate.css";
 
 
 * {
