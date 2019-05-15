@@ -1,0 +1,29 @@
+// This is the click function that causes the page to scroll down when the scroll functions are clicked. 
+
+// IMPORTANT NOTE: When you make changes to the page, you may need to refresh for it to work correctly.
+
+$(function() {
+  $('a[href*=#]').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 250, 'linear');
+  });
+});
+
+
+// Nav Functionality
+
+$(document).ready(function() {
+  console.log("Document fired up and ready to serve.");
+  $("#toggle").on("click", function() {
+    $(this).toggleClass("active focus");
+    console.log("Nav toggle was clicked.");
+    $("#overlay").toggleClass("open");
+  });
+});
+
+
+// Log test
+
+console.log(
+  "She says / It helps with the lights out / Her rabid glow / Is like braille to the night..."
+);
