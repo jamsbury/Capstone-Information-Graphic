@@ -1,3 +1,26 @@
+// Avoid `console` errors in browsers that lack a console.
+(function() {
+  var method;
+  var noop = function () {};
+  var methods = [
+      'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+      'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+      'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+      'timeline', 'timelineEnd', 'timeStamp', 'trace', 'warn'
+  ];
+  var length = methods.length;
+  var console = (window.console = window.console || {});
+
+  while (length--) {
+      method = methods[length];
+
+      // Only stub undefined methods.
+      if (!console[method]) {
+          console[method] = noop;
+      }
+  }
+}());
+
 // This is the click function that causes the page to scroll down when the scroll functions are clicked. 
 
 // IMPORTANT NOTE: When you make changes to the page, you may need to refresh for it to work correctly.
