@@ -4,19 +4,19 @@ Information project for  our portion the EWU 2024 project.
 
 ## Illustration To-do
 
-Josh:
+#### Josh:
 
 Introduction animation
 
 Process
 
-Kevin:
+#### Kevin:
 
 Collaborative Learning
 
 Before / After
 
-Justice:
+### Justice:
 
 The Shift (not an illustration)
 
