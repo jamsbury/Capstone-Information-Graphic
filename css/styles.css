@@ -24,6 +24,10 @@ body {
   padding: 0;
 }
 
+main {
+  width: 100%;
+}
+
 section {
   width: 100%;
   color: black;
@@ -35,10 +39,6 @@ section h1 {
   font-size: 6vw;
   text-align: center;
   margin: 0;
-}
-
-.sectiongo span {
-  background: url(https://i.imgur.com/a6E3iKv.png) center center/cover no-repeat;
 }
 
 
