@@ -30,6 +30,18 @@ main {
   width: 100%;
 }
 
+div.videobanner {
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+div.bannerspace {
+  width: 100%;
+  margin: 0 auto;
+  height: 80vh;
+}
+
 section {
   width: 95%;
   color: black;
@@ -39,12 +51,13 @@ section {
   grid-gap: 16px;
   grid-auto-rows: minmax(100px, auto);
   margin: auto;
+  margin-bottom: 2em;
 }
 
 section h1 {
   display: block;
   font-weight: 700;
-  font-size: 6vw;
+  font-size: 5vw;
   text-align: center;
   margin: 0;
   grid-column: span 2;
