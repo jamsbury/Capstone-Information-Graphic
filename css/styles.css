@@ -5,6 +5,8 @@
 @import "normalize.css";
 /* animate.css */
 @import "animate.css";
+/* Customs */
+@import "custom-animations.css"
 
 
 * {
@@ -29,16 +31,23 @@ main {
 }
 
 section {
-  width: 100%;
+  width: 95%;
   color: black;
-  background-color: #fffeee;
+  background-color: red;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+  grid-auto-rows: minmax(100px, auto);
+  margin: auto;
 }
 
 section h1 {
+  display: block;
   font-weight: 700;
   font-size: 6vw;
   text-align: center;
   margin: 0;
+  grid-column: span 2;
 }
 
 
@@ -49,7 +58,29 @@ section h1 {
 }
 
 
+@media screen and (min-width: 700px) {
+  section {
+    width: 85%;
+  }
+}
 
+@media screen and (min-width: 1100px) {
+  section {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  section {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  section {
+    width: 70%;
+  }
+}
 
 
 
