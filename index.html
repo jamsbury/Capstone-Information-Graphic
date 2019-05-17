@@ -25,24 +25,22 @@
 
   <!-- Navigation, Please don't touch this it WILL break if you look at it too hard. -->
 
-  <div class="button_container" id="toggle">
-    <svg class="navbutton" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 66"><title>Burger Button</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><rect width="92" height="14"/><rect y="26" width="92" height="14"/><rect y="52" width="92" height="14"/></g></g></svg>
-  </div>
-
-  <div class="overlay" id="overlay">
-    <nav class="overlay-menu">
-      <ul>
-        <li><a href="#">Introduction</a></li>
-        <li><a href="#">Fleixble Schedules</a></li>
-        <li><a href="#">Collaborative Learning</a></li>
-        <li><a href="#">Process</a></li>
-        <li><a href="#">Before / After</a></li>
-        <li><a href="#">The Shift</a></li>
-        <li><a href="#">The Achievement</a></li>
-        <li><a href="#">Conclusion</a></li>
-      </ul>
-    </nav>
-  </div>
+  <input id="burger-toggle" type="checkbox"/>
+<label class="burger" for="burger-toggle"><i></i><i></i><i></i></label>
+<div class="menu-screen">
+  <nav>
+    <ul>
+      <li><a href="#">Introduction</a></li>
+      <li><a href="#">Fleixble Schedules</a></li>
+      <li><a href="#">Collaborative Learning</a></li>
+      <li><a href="#">Process</a></li>
+      <li><a href="#">Before / After</a></li>
+      <li><a href="#">The Shift</a></li>
+      <li><a href="#">The Achievement</a></li>
+      <li><a href="#">Conclusion</a></li>
+    </ul>
+  </nav>
+</div>
 
 <!-- Site Content Below -->
 
@@ -52,8 +50,8 @@
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 160"><title>Curved Cover</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path style="fill: #a10022" d="M0,0Q959.34,232.88,1920,0V160H0Z"/></g></g></svg>
 </div>
 
-<section class="">
-  <p>In 2019, a capstone class set out to improve the undergraduate experience at Eastern Washington University. More than 30 students were surveyed throughout the dormitories and beyond. Online research was conducted on the operations of other Universities of the time. The goal of this research? Identify specific issues with the undergrad experience and create a plan of action for EWU to follow. </p>
+<section class="introtext">
+  <p><span>In 2019,</span> a VCD capstone class set out to improve the undergraduate experience at Eastern Washington University. More than 30 students were surveyed throughout the dormitories and beyond in combination with research on the future of plans of other universities. The goal of this research? Identify problems with the undergrad experience and create a plan of action to resolve them.</p>
   <p>There were two main goals developed to address some of the issues discovered by the research: implement more flexible scheduling to help alleviate lifestyle and responsbility conflicts that many students faced. This included missing classes due to family, work, or health issues. In addition, the University sought to pair this with interdisciplinary classes and senior projects in order to give students a better idea of how their education applies to real world. These courses also allowed students to create a network outside of their own major and to learn the perspectives of peoplle who had recieved different academic experiences than themselves. 
   </p>
 </section>
@@ -106,7 +104,6 @@
 </main>
   
 <script src="js/jquery-3.3.1.min.js"></script>
-<script src=”https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js"></script>
 <script src="js/main.js"></script>
 
 </body>
