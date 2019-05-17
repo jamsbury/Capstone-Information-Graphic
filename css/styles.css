@@ -46,11 +46,20 @@ div.videobanner svg {
   margin-bottom: -2px;
 }
 
+div.bannerspace svg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+  margin-bottom: -2px;
+}
+
 div.bannerspace {
   width: 100%;
   margin: 0 auto;
   padding: 0;
   margin-bottom: 0;
+  position: relative;
 }
 
 .bannerspace img {
@@ -63,9 +72,9 @@ section {
   grid-template-columns: 1fr;
   grid-gap: 16px;
   margin: 0 auto 0 auto;
-  margin-bottom: 2em;
   padding: 2em 2.5% 2em 2.5%;
   background-color: #666666;
+  position: relative;
 }
 
 section.introtext {
@@ -162,9 +171,9 @@ section h1 {
   left: -100vw;
 }
 .burger {
-  position: absolute;
-  top: 20px;
-  right: 20px;
+  position: fixed;
+  top: 3%;
+  right: 2%;
   width: 35px;
   opacity: 0.8;
   z-index: 11;
