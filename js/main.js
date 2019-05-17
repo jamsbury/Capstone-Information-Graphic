@@ -37,12 +37,12 @@ $(function() {
 
 $(document).ready(function() {
   console.log("Document fired up and ready to serve.");
-  $("#toggle").on("click", function() {
-    $(this).toggleClass("active focus");
-    console.log("Nav toggle was clicked.");
-    $("#overlay").toggleClass("open");
+  $(".navl").on("click", function() {
+    $('#burger-toggle').prop('checked', false);
   });
 });
+
+
 
 
 // Log test

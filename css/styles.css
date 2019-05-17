@@ -44,6 +44,7 @@ div.videobanner svg {
   width: 100%;
   left: 0;
   margin-bottom: -2px;
+  z-index: 2;
 }
 
 div.bannerspace svg {
@@ -52,6 +53,7 @@ div.bannerspace svg {
   width: 100%;
   left: 0;
   margin-bottom: -2px;
+  z-index: 2;
 }
 
 div.bannerspace {
@@ -167,7 +169,7 @@ section h1 {
 }
 
 #burger-toggle {
-  position: absolute;
+  position: fixed;
   left: -100vw;
 }
 .burger {
