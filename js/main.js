@@ -42,8 +42,9 @@ $(document).ready(function() {
   });
 });
 
-
-
+video.addEventListener('ended', function() { 
+  this.currentTime = 23; 
+}, false);
 
 // Log test
 

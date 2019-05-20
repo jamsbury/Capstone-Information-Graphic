@@ -7,6 +7,8 @@
 @import "animate.css";
 /* Customs */
 @import "custom-animations.css";
+/* video */
+@import "video.css";
 
 * {
   margin: 0;
@@ -17,6 +19,20 @@ html, body {
   margin: 0;
   padding: 0;
 
+}
+
+.vidwrap {
+  z-index: -1;
+}
+
+video {
+  display: block;
+  height: 100vh;
+  margin: auto;
+}
+
+video:active {
+  border: none;
 }
 
 body {
@@ -45,7 +61,6 @@ section.introtext {
 div.videobanner {
   width: 100%;
   margin: 0 auto;
-  height: 100vh;
   position: relative;
 }
 
