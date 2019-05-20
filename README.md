@@ -4,24 +4,8 @@ Information project for  our portion the EWU 2024 project.
 
 ## Illustration To-do
 
-#### Josh:
+#### Needed Visuals
 
-Introduction animation
-
-Process
-
-#### Kevin:
-
-Collaborative Learning
-
-Before / After
-
-### Justice:
-
-The Shift (not an illustration)
-
-The achievement
-
-Flexible schedules
-
-Conclusion: essentially the "end" of a presentation; thank yous etc.
+* Explain transition from school to work visually
+* Explain flexible scheduling more visually
+* Show businesses working with school on that impacts course content
