@@ -7,9 +7,10 @@ Information project for  our portion the EWU 2024 project.
 #### Needed Visuals
 
 Think of this content as infographics to accompany our text, presented side by side. 
-
-* Explain transition from school to work visually
 * Explain flexible scheduling more visually
+
+Kevin will do these 2:
+* Explain transition from school to work visually
 * Show businesses working with school on that impacts course content
 
 #### Copy Edits
