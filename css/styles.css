@@ -48,10 +48,9 @@ main {
   width: 100%;
 }
 
-.nobullet {
+ul {
   list-style: none;
-  padding-left: 0;
-  line-height: 1.25em;
+  line-height: 2em;
 }
 
 section.introtext {
