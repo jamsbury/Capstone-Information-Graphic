@@ -51,6 +51,7 @@ main {
 .nobullet {
   list-style: none;
   padding-left: 0;
+  line-height: 1.25em;
 }
 
 section.introtext {
@@ -110,7 +111,7 @@ section {
 
 section div ul {
   display: block;
-  padding-left: 1em;
+  padding: 0 1em 0 2em;
 }
 
 .largerspan {
