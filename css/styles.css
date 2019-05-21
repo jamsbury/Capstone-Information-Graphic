@@ -49,7 +49,6 @@ main {
 }
 
 ul {
-  list-style: none;
   line-height: 2em;
 }
 
@@ -158,6 +157,10 @@ section.process, #process {
   padding: 0;
 }
 
+.processboard {
+  width: 100%;
+}
+
 .headerline {
   width: 100%;
   margin: auto;
@@ -165,6 +168,10 @@ section.process, #process {
   margin-bottom: 1em;
 }
 
+section p {
+  display: block;
+  margin-bottom: 2em;
+}
 
 @media screen and (min-width: 700px) {
   section {
@@ -300,11 +307,16 @@ section.process, #process {
   width: 100vw;
   height: 100vh;
   opacity: 0;
-  background: rgba(0,0,0,0.55);
+  background: rgba(0,0,0,0.8);
   display: flex;
   align-items: center;
   transition: opacity 0.2s linear, left 0s linear 0.2s;
 }
+
+.menu-screen nav ul {
+  line-height: 1em;
+}
+
 .menu-screen a {
   color: rgba(255,255,255,0.8);
   text-decoration: none;
