@@ -1,14 +1,22 @@
+/* font import */
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+
 /* importing HTML/CSS fixes */
 @import "fixes.css"; 
+
 /* importing normalize */
 @import "normalize.css";
+
 /* animate.css */
 @import "animate.css";
+
 /* Customs */
 @import "custom-animations.css";
+
 /* video */
 @import "video.css";
+
+
 
 * {
   margin: 0;
@@ -132,7 +140,7 @@ h1 {
   font-size: 8vw;
   text-align: center;
   margin: 0;
-  padding-top: 0.5em;
+  padding-top: 1em;
 }
 
 h3 {
@@ -148,6 +156,22 @@ h3 {
 
 section.process, #process {
   background-color: #fff8e5;
+}
+
+section.flex, #flex {
+  background-color: #cfe5fa;
+}
+
+section.collab, #collab {
+  background-color: #eccc77;
+}
+
+section.ba, #ba {
+  background-color: #fcd4d5;
+}
+
+section.achievement, #achievement {
+  background-color: #b8ffd2;
 }
 
 .nonheader {
@@ -178,7 +202,7 @@ section p {
     padding: 2em 10% 2em 10%;
   }
   .bannerspace img {
-    width: 80%;
+    width: 70%;
   }
 }
 
@@ -203,7 +227,7 @@ section p {
     grid-column: span 2;
   }
   .bannerspace img {
-    width: 70%;
+    width: 60%;
   }
 }
 
@@ -215,7 +239,7 @@ section p {
     padding: 1em 27% 1em 27%;
   }
   .bannerspace img {
-    width: 60%;
+    width: 50%;
   }
 }
 
@@ -231,7 +255,7 @@ section p {
     padding: 1em 30% 1em 30%;
   }
   .bannerspace img {
-    width: 45%;
+    width: 40%;
   }
 }
 
@@ -263,6 +287,7 @@ section p {
   position: fixed;
   left: -100vw;
 }
+
 .burger {
   position: fixed;
   top: 3%;
@@ -279,26 +304,32 @@ section p {
   border-radius: 3px;
   background-color: #000000;
 }
+
 .burger i + i {
   margin-top: 6px;
 }
+
 .burger:hover {
   opacity: 1;
   transition: opacity 0.2s linear;
 }
+
 .burger i:first-child {
   -webkit-animation: 0.3s unrotate-then-unmove2 forwards;
           animation: 0.3s unrotate-then-unmove2 forwards;
 }
+
 .burger i:nth-child(2) {
   transition: opacity 0.2s linear, -webkit-transform 0.3s ease-out;
   transition: transform 0.3s ease-out, opacity 0.2s linear;
   transition: transform 0.3s ease-out, opacity 0.2s linear, -webkit-transform 0.3s ease-out;
 }
+
 .burger i:last-child {
   -webkit-animation: 0.3s unrotate-then-unmove1 forwards;
           animation: 0.3s unrotate-then-unmove1 forwards;
 }
+
 .menu-screen {
   position: fixed;
   top: 0;
