@@ -16,17 +16,7 @@ Kevin will do these 2:
 #### Copy Edits
 
 Justice
-* Intro
-* Process
-* Flexible Scheduling
 
-Kevin 
-* Before / After
-* The Shift 
-* Collaborative Learning
-
-Josh
-* The achievement
 
 Wednesday, in class:
 * Conclusion
