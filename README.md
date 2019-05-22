@@ -13,10 +13,20 @@ Kevin will do these 2:
 * Explain transition from school to work visually
 * Show businesses working with school on that impacts course content
 
-#### Copy Edits
+#### Additional Illustrations and Content
 
 Justice
+* Palouse Restoration Project Porposal Addition
+* Palouse Restoration Process Illustration
+* +Additional Flexible Scheduling Illustration
+* +Additional Process Illustration
+* Before / After Layout
 
+Josh
+* Add achievement graphics
+* Split video
 
-Wednesday, in class:
-* Conclusion
+Kevin
+* Collaborative Learning Illustrations
+* Adjust collaborative header image
+* Decide content for conclusion
