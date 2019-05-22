@@ -102,6 +102,11 @@ div.bannerspace {
   position: relative;
 }
 
+.nobullet {
+  list-style: none;
+  padding-left: 0;
+}
+
 .bannerspace img {
   width: 100%;
   margin: auto;
@@ -129,8 +134,12 @@ section div ul {
 }
 
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   font-family: Montserrat, "Roboto", sans-serif;
+}
+
+.achievement div.martop {
+  margin-top: 2em;
 }
 
 h1 {
@@ -155,6 +164,14 @@ h4 {
   display: block;
   font-weight: 700;
   font-size: 2em;
+  text-align: left;
+  padding-bottom: 0.5em;
+}
+
+h5 {
+  display: block;
+  font-weight: 700;
+  font-size: 1.5em;
   text-align: left;
   padding-bottom: 0.5em;
 }
