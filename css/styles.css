@@ -198,10 +198,13 @@ section.achievement, #achievement {
   margin: auto;
   display: block;
   padding: 0;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 .processboard {
   width: 100%;
+  margin-top: 0;
 }
 
 .headerline {
