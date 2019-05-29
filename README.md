@@ -10,7 +10,6 @@ Justice
 * +Additional Flexible Scheduling Illustration
 * +Additional Process Illustration
 * From / To Layout
+* Adjust Content Layout
 
-Josh
-
-Kevin
+Plan Presentation Practice
