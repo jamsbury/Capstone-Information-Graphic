@@ -14,6 +14,3 @@ Justice
 Josh
 
 Kevin
-* Collaborative Learning Illustrations
-* Adjust collaborative header image
-* Decide content for conclusion
