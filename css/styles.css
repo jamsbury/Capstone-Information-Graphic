@@ -164,8 +164,13 @@ section.ba div {
   position: relative;
 }
 
+section.ba div ul {
+  z-index: 2;
+}
+
 section.ba h3 {
   text-align: left;
+  color: #aaaaaa;
 }
 
 
