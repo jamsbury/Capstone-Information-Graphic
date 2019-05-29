@@ -135,7 +135,7 @@ section div ul {
 
 
 h1, h2, h3, h4, h5 {
-  font-family: Montserrat, "Roboto", sans-serif;
+  font-family: "Montserrat", "Roboto", sans-serif;
 }
 
 .achievement div.martop {
@@ -159,6 +159,16 @@ h3 {
   width: 100%;
   padding-bottom: 0.5em;
 }
+
+section.ba div {
+  position: relative;
+}
+
+section.ba h3 {
+  text-align: left;
+}
+
+
 
 h4 {
   display: block;
@@ -217,6 +227,10 @@ section.achievement, #achievement {
   padding: 0;
   margin-top: 3em;
   margin-bottom: 3em;
+}
+
+.achievementimg {
+  margin-top: 0;
 }
 
 .processboard {

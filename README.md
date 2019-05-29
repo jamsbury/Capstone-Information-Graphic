@@ -9,11 +9,9 @@ Justice
 * Palouse Restoration Process Illustration
 * +Additional Flexible Scheduling Illustration
 * +Additional Process Illustration
-* Before / After Layout
+* From / To Layout
 
 Josh
-* Add achievement graphics
-* Split video
 
 Kevin
 * Collaborative Learning Illustrations
