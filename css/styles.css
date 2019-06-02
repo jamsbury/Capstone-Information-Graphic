@@ -1,5 +1,5 @@
 /* font import */
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400|Roboto&display=swap');
 
 /* importing HTML/CSS fixes */
 @import "fixes.css"; 
@@ -22,6 +22,8 @@
   margin: 0;
   padding: 0;
 }
+
+
 
 strong {
   font-weight: 700;
@@ -125,6 +127,8 @@ section {
   position: relative;
 }
 
+
+
 section div ul {
   display: block;
   padding: 0 1em 0 2em;
@@ -141,6 +145,29 @@ h1, h2, h3, h4, h5 {
 
 .achievement div.martop {
   margin-top: 2em;
+}
+
+section.ba div{
+  z-index: 1;
+  margin-top: 2em;
+  position: relative;
+}
+
+section.ba {
+  padding-top: 5em;
+}
+
+
+.tf {
+  top: 0;
+  padding: 0;
+  margin: 0;
+  margin-top: -2em;
+  left: 0;
+  height: 4em;
+  position: absolute;
+  z-index: -1;
+  font-weight: 100;
 }
 
 h1 {
@@ -306,12 +333,19 @@ section p {
   .bannerspace img {
     width: 70%;
   }
+  section.ba {
+    padding-top: 6.5em;
+  }
 }
 
 @media screen and (min-width: 1100px) {
   section {
     padding: 7em 18% 2em 18%;
     grid-template-columns: 1fr 1fr;
+  }
+
+  section.ba {
+    padding-top: 8em;
   }
 
   .largerspan {
@@ -331,6 +365,9 @@ section p {
 @media screen and (min-width: 1600px) {
   section {
     padding: 8em 22% 2em 22%;
+  }
+  section.ba {
+    padding-top: 9em;
   }
   .largerspan {
     padding: 1em 27% 1em 27%;
