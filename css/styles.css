@@ -68,6 +68,7 @@ section.introtext {
   color: white;
   background-color: #a10022;
   font-size: 16pt;
+  padding-top: 1em;
 }
 
 div.videobanner {
@@ -237,7 +238,7 @@ section.process h4 {
 #collab {
   background-color: #eccc77;
   background-image: url(../img/collaborate.jpg);
-  background-size: 70%;
+  background-size: 85%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -247,7 +248,7 @@ section.process h4 {
 #ba {
   background-color: #fcd4d5;
   background-image: url(../img/before_after.jpg);
-  background-size: 70%;
+  background-size: 85%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -257,7 +258,7 @@ section.process h4 {
 #achievement {
   background-color: #b8ffd2;
   background-image: url(../img/achieve.jpg);
-  background-size: 70%;
+  background-size: 50%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -300,7 +301,7 @@ section p {
 
 @media screen and (min-width: 700px) {
   section {
-    padding: 4.5em 10% 2em 10%;
+    padding: 5.5em 10% 2em 10%;
   }
   .bannerspace img {
     width: 70%;
@@ -309,7 +310,7 @@ section p {
 
 @media screen and (min-width: 1100px) {
   section {
-    padding: 5em 18% 2em 18%;
+    padding: 7em 18% 2em 18%;
     grid-template-columns: 1fr 1fr;
   }
 
@@ -329,7 +330,7 @@ section p {
 
 @media screen and (min-width: 1600px) {
   section {
-    padding: 6em 22% 2em 22%;
+    padding: 8em 22% 2em 22%;
   }
   .largerspan {
     padding: 1em 27% 1em 27%;
@@ -435,10 +436,6 @@ section p {
   transition: opacity 0.2s linear, left 0s linear 0.2s;
 }
 
-.menu-screen nav ul {
-  line-height: 1em;
-}
-
 .menu-screen a {
   color: rgba(255,255,255,0.8);
   text-decoration: none;
@@ -480,6 +477,8 @@ section p {
 #burger-toggle:checked ~ .burger i:first-child {
   -webkit-animation: 0.3s move-down-then-rotate forwards;
           animation: 0.3s move-down-then-rotate forwards;
+          background-color: #ffffff;
+
 }
 #burger-toggle:checked ~ .burger i:nth-child(2) {
   opacity: 0;
@@ -488,6 +487,8 @@ section p {
 #burger-toggle:checked ~ .burger i:last-child {
   -webkit-animation: 0.3s move-up-then-rotate forwards;
           animation: 0.3s move-up-then-rotate forwards;
+          background-color: #ffffff;
+
 }
 #burger-toggle:checked ~ .menu-screen {
   left: 0;
