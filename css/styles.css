@@ -326,9 +326,18 @@ section.achievement {
   height: 100vh;
 }
 
-h3.outhead {
+section.process h3.outhead {
   padding: 0;
   padding-top: 0.5em;
+}
+
+section.collab h3.outhead {
+  padding: 0;
+  padding-top: 0.5em;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  display: block;
 }
 
 .nonheader {
