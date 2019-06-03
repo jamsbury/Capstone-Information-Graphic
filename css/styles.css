@@ -272,6 +272,25 @@ section.process h4 {
   height: 100vh;
 }
 
+section.collab {
+  align-items: center;
+}
+
+section.ba ul li {
+  padding-bottom: 1em;
+}
+
+section.collab h3 {
+  text-align: left;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+section.collab img.achievementimg {
+  margin: auto;
+}
+
+
 #ba {
   background-color: #fcd4d5;
   background-image: url(../img/before_after.jpg);
@@ -307,6 +326,7 @@ section.process h4 {
 
 .achievementimg {
   margin-top: 0;
+  margin-
 }
 
 .processboard {
@@ -336,6 +356,9 @@ section p {
   section.ba {
     padding-top: 6.5em;
   }
+  .achievementimg {
+    width: 80%
+  }
 }
 
 @media screen and (min-width: 1100px) {
@@ -360,6 +383,9 @@ section p {
   .bannerspace img {
     width: 60%;
   }
+  .achievementimg {
+    width: 70%
+  }
 }
 
 @media screen and (min-width: 1600px) {
@@ -374,6 +400,9 @@ section p {
   }
   .bannerspace img {
     width: 50%;
+  }
+  .achievementimg {
+    width: 65%;
   }
 }
 
