@@ -326,6 +326,11 @@ section.achievement {
   height: 100vh;
 }
 
+section.process h3.largerspan {
+  padding: 0;
+  padding-top: 0.5em;
+}
+
 .nonheader {
   width: 100%;
   margin: auto;
@@ -411,7 +416,7 @@ section p {
     padding-top: 9em;
   }
   .largerspan {
-    padding: 1em 27% 1em 27%;
+    padding: 1em 24% 1em 24%;
   }
   .bannerspace img {
     width: 50%;
