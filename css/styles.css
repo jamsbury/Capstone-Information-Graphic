@@ -23,7 +23,17 @@
   padding: 0;
 }
 
-
+div.pullquote {
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 3.5em;
+  font-size: 24pt;
+  padding: 0;
+  padding-top: 0.5em;
+  padding-bottom: 0.6em;
+  border-bottom: solid black 2px;
+  border-top: solid black 2px;
+}
 
 strong {
   font-weight: 700;
@@ -290,6 +300,10 @@ section.collab img.achievementimg {
   margin: auto;
 }
 
+section.achievement {
+  align-items: center;
+}
+
 
 #ba {
   background-color: #fcd4d5;
@@ -326,7 +340,7 @@ section.collab img.achievementimg {
 
 .achievementimg {
   margin-top: 0;
-  margin-
+  align-self: center;
 }
 
 .processboard {
