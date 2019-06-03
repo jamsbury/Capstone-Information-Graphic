@@ -405,7 +405,7 @@ section p {
 
 @media screen and (min-width: 1600px) {
   section {
-    padding: 8em 22% 2em 22%;
+    padding: 8em 20% 2em 20%;
   }
   section.ba {
     padding-top: 9em;
